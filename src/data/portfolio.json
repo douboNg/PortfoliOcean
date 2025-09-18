@@ -1,131 +1,140 @@
 {
   "projects": [
     {
-      "id": 1,
-      "title": "E-Commerce Platform",
-      "description": "A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
-      "longDescription": "This comprehensive e-commerce platform showcases my full-stack development skills. Built with modern technologies including React for the frontend, Node.js and Express for the backend, and MongoDB for data persistence. The platform includes advanced features such as secure user authentication, Stripe payment integration, real-time inventory management, and a comprehensive admin dashboard for managing products, orders, and users.",
-      "technologies": ["React", "Node.js", "MongoDB", "Express", "Stripe", "JWT"],
-      "image": "/assets/projects/ecommerce.jpg",
-      "githubUrl": "https://github.com/douboNg/ecommerce-platform",
-      "liveUrl": "https://ecommerce-demo.portfoliocean.com",
+      "title": "Music Streaming Website",
+      "description": "A comprehensive website for users to stream music and purchase albums, for artists to upload songs, and for admins to manage content and analytics.",
+      "longDescription": "A full-featured music streaming platform designed for multiple user groups including listeners, artists, and administrators. This project demonstrates comprehensive systems analysis and design skills with a 15-table relational database, complete UML documentation, and user-centered design approach. Features include user authentication, music streaming, album purchases, artist management, and comprehensive admin analytics.",
+      "technologies": ["Microsoft SQL Server", "Figma", "StarUML", "draw.io", "Notion", "dbdiagram.io"],
+      "image": "/assets/projects/music-streaming.jpg",
+      "githubUrl": "https://drive.google.com/drive/folders/13IMmaSA0hacdhjgCh78pwZdRCNAv7so2?usp=sharing",
+      "liveUrl": null,
       "featured": true,
-      "category": "Full-Stack"
+      "category": "Business Analysis"
     },
     {
       "id": 2,
-      "title": "Task Management App",
-      "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      "longDescription": "This modern task management application demonstrates my expertise in building interactive user interfaces and real-time applications. Features include drag-and-drop task organization, real-time collaboration using WebSockets, advanced filtering and search capabilities, and responsive design for all devices.",
-      "technologies": ["React", "TypeScript", "Socket.io", "Node.js", "PostgreSQL"],
-      "image": "/assets/projects/task-manager.jpg",
-      "githubUrl": "https://github.com/douboNg/task-manager",
-      "liveUrl": "https://tasks.portfoliocean.com",
+      "title": "Concert Ticket Management System",
+      "description": "A system for users to buy concert tickets and for admins to manage events, seats, stages, and more.",
+      "longDescription": "A comprehensive ticket management system that handles event creation, seat management, and ticket sales. This project showcases business analysis skills including requirement gathering, process modeling, and project coordination. Features include event management, dynamic seating arrangements, ticket purchasing workflow, and administrative controls for venue and event management.",
+      "technologies": ["Octoparse", "MS Project", "StarUML", "balsamiq"],
+      "image": "/assets/projects/concert-tickets.jpg",
+      "githubUrl": "https://drive.google.com/drive/folders/1_Dw-K3g9bTaf5fuuDafvj7kTYWn_hAWu?usp=sharing",
+      "liveUrl": null,
       "featured": true,
-      "category": "Frontend"
+      "category": "Business Analysis"
     },
     {
       "id": 3,
-      "title": "Weather Dashboard",
-      "description": "A beautiful weather dashboard with location-based forecasts, interactive maps, and detailed analytics.",
-      "longDescription": "An elegant weather dashboard that provides comprehensive weather information with stunning visualizations. Built with React and integrated with multiple weather APIs to provide accurate forecasts, interactive weather maps, and detailed analytics including temperature trends, precipitation patterns, and weather alerts.",
-      "technologies": ["React", "D3.js", "Weather API", "Geolocation", "Chart.js"],
-      "image": "/assets/projects/weather-dashboard.jpg",
-      "githubUrl": "https://github.com/douboNg/weather-dashboard",
-      "liveUrl": "https://weather.portfoliocean.com",
+      "title": "Customer Purchasing Pattern Analysis",
+      "description": "A cloud solution to analyze large-scale retail transaction data using clustering techniques and interactive dashboards.",
+      "longDescription": "A comprehensive data analysis project that identifies customer segments using advanced clustering techniques. Built on cloud infrastructure to handle large-scale retail transaction data. The solution includes data preprocessing, machine learning implementation with K-means clustering, and business intelligence dashboards for strategic decision-making. Features interactive Power BI dashboards that visualize customer segments and purchasing patterns.",
+      "technologies": ["Azure Storage", "Java", "Python", "Power BI", "Hadoop MapReduce", "K-means Clustering"],
+      "image": "/assets/projects/customer-analysis.jpg",
+      "githubUrl": "https://github.com/douboNg/Customer-Purchasing-Pattern-Analysis",
+      "liveUrl": null,
       "featured": false,
-      "category": "Frontend"
+      "category": "Data Analysis"
     },
     {
       "id": 4,
-      "title": "API Gateway Service",
-      "description": "A scalable microservices API gateway with authentication, rate limiting, and monitoring capabilities.",
-      "longDescription": "A robust API gateway service designed for microservices architecture. Implements advanced features including JWT-based authentication, intelligent rate limiting, request/response transformation, comprehensive logging and monitoring, and automatic service discovery. Built with Node.js and deployed using Docker containers.",
-      "technologies": ["Node.js", "Express", "Redis", "Docker", "JWT", "Prometheus"],
-      "image": "/assets/projects/api-gateway.jpg",
-      "githubUrl": "https://github.com/douboNg/api-gateway",
+      "title": "NBA Performance Analysis",
+      "description": "A business intelligence solution for sports analytics decision-making with end-to-end ETL pipeline and interactive reporting.",
+      "longDescription": "A comprehensive business intelligence solution that transforms raw NBA statistics into actionable insights. Features an end-to-end ETL pipeline, OLAP cubes for multidimensional analysis, and interactive dashboards. The system enables data-driven player evaluation and team strategy optimization through advanced analytics including roll-up, drill-down, slice/dice, and pivot operations.",
+      "technologies": ["SQL Server", "Power BI", "Excel", "MDX", "OLAP Cubes", "ETL"],
+      "image": "/assets/projects/nba-analysis.jpg",
+      "githubUrl": "https://github.com/douboNg/NBA-Data-Analysis",
       "liveUrl": null,
       "featured": false,
-      "category": "Backend"
+      "category": "Data Analysis"
     }
   ],
   "skills": {
-    "frontend": [
-      { "name": "React", "level": "Expert", "years": 3 },
-      { "name": "TypeScript", "level": "Advanced", "years": 2 },
-      { "name": "JavaScript", "level": "Expert", "years": 4 },
-      { "name": "HTML/CSS", "level": "Expert", "years": 5 },
-      { "name": "Tailwind CSS", "level": "Advanced", "years": 2 },
-      { "name": "Next.js", "level": "Advanced", "years": 2 },
-      { "name": "Vue.js", "level": "Intermediate", "years": 1 }
+    "business_analysis": [
+      { "name": "Requirements Engineering", "level": "Advanced" },
+      { "name": "Process Modeling", "level": "Advanced" },
+      { "name": "FRD, SRS, BRD", "level": "Advanced" },
+      { "name": "UML Diagrams", "level": "Advanced" },
+      { "name": "Use Cases & User Stories", "level": "Advanced" },
+      { "name": "Requirements Traceability Matrix", "level": "Intermediate" },
+      { "name": "Business Process Modeling", "level": "Intermediate" },
+      { "name": "Stakeholder Management", "level": "Intermediate" }
     ],
-    "backend": [
-      { "name": "Node.js", "level": "Advanced", "years": 3 },
-      { "name": "Express.js", "level": "Advanced", "years": 3 },
-      { "name": "Python", "level": "Intermediate", "years": 2 },
-      { "name": "PostgreSQL", "level": "Advanced", "years": 2 },
-      { "name": "MongoDB", "level": "Advanced", "years": 2 },
-      { "name": "Redis", "level": "Intermediate", "years": 1 },
-      { "name": "GraphQL", "level": "Intermediate", "years": 1 }
+    "erp_systems": [
+      { "name": "FAST ERP", "level": "Intermediate" },
+      { "name": "Odoo", "level": "Beginner" },
+      { "name": "System Customization", "level": "Intermediate" },
+      { "name": "HR Module Configuration", "level": "Intermediate" },
+      { "name": "CMS (Drupal)", "level": "Intermediate" }
     ],
-    "tools": [
-      { "name": "Git", "level": "Advanced", "years": 4 },
-      { "name": "Docker", "level": "Intermediate", "years": 2 },
-      { "name": "AWS", "level": "Intermediate", "years": 1 },
-      { "name": "Figma", "level": "Advanced", "years": 3 },
-      { "name": "Webpack", "level": "Intermediate", "years": 2 },
-      { "name": "Jest", "level": "Advanced", "years": 2 },
-      { "name": "Cypress", "level": "Intermediate", "years": 1 }
+    "technical_tools": [
+      { "name": "SQL Server", "level": "Advanced" },
+      { "name": "Power BI", "level": "Advanced" },
+      { "name": "Figma", "level": "Advanced" },
+      { "name": "Miro", "level": "Advanced" },
+      { "name": "draw.io", "level": "Advanced" },
+      { "name": "StarUML", "level": "Advanced" },
+      { "name": "Notion", "level": "Advanced" },
+      { "name": "MS Project", "level": "Intermediate" },
+      { "name": "balsamiq", "level": "Intermediate" },
+      { "name": "Azure Storage", "level": "Intermediate" }
+    ],
+    "programming": [
+      { "name": "Python", "level": "Intermediate" },
+      { "name": "Java", "level": "Intermediate" },
+      { "name": "HTML & CSS", "level": "Intermediate" },
+      { "name": "Data Analysis", "level": "Intermediate" },
+      { "name": "ETL Processes", "level": "Intermediate" },
+      { "name": "OLAP Cubes", "level": "Beginner" }
     ]
   },
   "experience": [
     {
       "id": 1,
-      "company": "TechFlow Solutions",
-      "position": "Senior Frontend Developer",
-      "location": "Remote",
-      "startDate": "2023-01",
-      "endDate": null,
-      "current": true,
-      "description": "Lead frontend development for multiple client projects using React and TypeScript. Collaborate with design teams to create pixel-perfect, responsive user interfaces. Mentor junior developers and establish best practices for code quality and performance.",
-      "achievements": [
-        "Improved application performance by 40% through code optimization and lazy loading",
-        "Led a team of 4 developers in delivering 3 major client projects on time",
-        "Implemented comprehensive testing strategies reducing bug reports by 60%"
+      "company": "KYANON DIGITAL",
+      "position": "Business Analyst Trainee",
+      "location": "HCMC, Vietnam",
+      "startDate": "2025-04",
+      "endDate": "2025-07",
+      "current": false,
+      "description": "Kyanon Digital is a Vietnam-based, one‑stop digital services house delivering end‑to‑end solutions with an agile approach, driving meaningful impact across Southeast Asia.",
+      "responsibilities": [
+        "Authored CMS user guides and managed 20+ change requests for AEON's iAEON super-app",
+        "Supported Agile/Scrum project planning and progress tracking for multiple client projects",
+        "Developed an AI handbook about leveraging AI tools to enhance productivity and skills in business context"
       ],
-      "technologies": ["React", "TypeScript", "Next.js", "Tailwind CSS", "GraphQL"]
+      "technologies": ["Miro", "Figma", "Agile/Scrum", "Requirements Traceability Matrix", "CMS (Drupal)"]
     },
     {
       "id": 2,
-      "company": "Digital Innovations Inc.",
-      "position": "Full-Stack Developer",
-      "location": "San Francisco, CA",
-      "startDate": "2021-06",
-      "endDate": "2022-12",
+      "company": "FAST",
+      "position": "ERP Implementation Intern - HR Domain",
+      "location": "HCMC, Vietnam",
+      "startDate": "2024-09",
+      "endDate": "2024-11",
       "current": false,
-      "description": "Developed and maintained full-stack web applications using React, Node.js, and PostgreSQL. Worked closely with product managers and designers to implement new features and improve user experience.",
-      "achievements": [
-        "Built and deployed 5 successful web applications serving 10k+ users",
-        "Reduced server response times by 35% through database optimization",
-        "Implemented automated CI/CD pipelines reducing deployment time by 80%"
+      "description": "Implemented Fast HRM software (part of an ERP software) by mapping HR workflows and translating requirements into functional specifications. Collaborated with development teams to identify improvement opportunities.",
+      "responsibilities": [
+        "Analyzed HR module requirements and translated them into BPMN-style flow diagrams for accurate ERP system customization",
+        "Supported system configuration and customization to ensure solutions met client needs",
+        "Collaborated with development teams to identify improvement opportunities in HR processes"
       ],
-      "technologies": ["React", "Node.js", "PostgreSQL", "AWS", "Docker"]
+      "technologies": ["FAST ERP", "BPMN", "HR Modules", "System Configuration", "Requirements Analysis"]
     },
     {
       "id": 3,
-      "company": "StartupCo",
-      "position": "Frontend Developer",
-      "location": "Austin, TX",
-      "startDate": "2020-08",
-      "endDate": "2021-05",
+      "company": "University of Information Technology",
+      "position": "Information Systems Student",
+      "location": "HCMC, Vietnam",
+      "startDate": "2021-09",
+      "endDate": "2025-06",
       "current": false,
-      "description": "Focused on frontend development using React and modern JavaScript. Collaborated with a small team to build the company's main product from the ground up.",
-      "achievements": [
-        "Developed the initial MVP that secured $2M in Series A funding",
-        "Created a component library that improved development speed by 50%",
-        "Implemented responsive design supporting all device types"
+      "description": "Completed Bachelor's degree in Information Systems with focus on systems analysis, business process modeling, and database management. Achieved GPA of 7.85/10 with relevant coursework in business analysis and software development.",
+      "responsibilities": [
+        "Designed comprehensive SRS documentation for multiple systems analysis projects",
+        "Led cross-functional teams in delivering complex database and analysis projects",
+        "Completed coursework in Database Management, Systems Analysis and Design, Business and Data Analysis"
       ],
-      "technologies": ["React", "JavaScript", "SASS", "Material-UI", "Redux"]
+      "technologies": ["Systems Analysis", "Database Design", "UML", "Business Process Modeling", "Project Management"]
     }
   ]
 }

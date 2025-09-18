@@ -2,7 +2,7 @@
 
 A beautiful, responsive personal portfolio website built with React, Tailwind CSS, and Vite. Features an ocean/beach-inspired design with smooth animations and a fully functional blog system.
 
-## 🌊 Features
+<!-- ## 🌊 Features
 
 - **Modern Design**: Ocean/beach-themed color palette with smooth animations
 - **Fully Responsive**: Optimized for all device sizes from mobile to desktop
@@ -42,7 +42,7 @@ A beautiful, responsive personal portfolio website built with React, Tailwind CS
    ```
 
 4. **Open your browser**
-   Visit `http://localhost:5173` to view the portfolio
+   Visit `http://localhost:5173` to view the portfolio -->
 
 ## 📁 Project Structure
 
@@ -59,7 +59,7 @@ src/
 └── index.css           # Tailwind CSS configuration
 ```
 
-## 🎨 Customization
+<!-- ## 🎨 Customization
 
 ### Personal Information
 Update your personal information in:
@@ -117,7 +117,7 @@ The website is fully responsive with breakpoints:
 - **Optimized Assets**: Vite's built-in optimization
 - **Responsive Images**: Placeholder system for images
 - **Smooth Animations**: CSS transforms and transitions
-- **SEO Friendly**: Semantic HTML and proper meta tags
+- **SEO Friendly**: Semantic HTML and proper meta tags -->
 
 ## 🛠️ Technologies Used
 
@@ -126,24 +126,6 @@ The website is fully responsive with breakpoints:
 - **React Router DOM** - Client-side routing
 - **Vite** - Fast build tool and dev server
 - **ESLint** - Code linting and formatting
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📧 Contact
-
-Duong Nguyen - [duong@portfoliocean.com](mailto:duong@portfoliocean.com)
-
-Project Link: [https://github.com/douboNg/portfoliocean](https://github.com/douboNg/portfoliocean)
 
 ---
 

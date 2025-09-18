@@ -1,0 +1,131 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
+      "longDescription": "This comprehensive e-commerce platform showcases my full-stack development skills. Built with modern technologies including React for the frontend, Node.js and Express for the backend, and MongoDB for data persistence. The platform includes advanced features such as secure user authentication, Stripe payment integration, real-time inventory management, and a comprehensive admin dashboard for managing products, orders, and users.",
+      "technologies": ["React", "Node.js", "MongoDB", "Express", "Stripe", "JWT"],
+      "image": "/assets/projects/ecommerce.jpg",
+      "githubUrl": "https://github.com/douboNg/ecommerce-platform",
+      "liveUrl": "https://ecommerce-demo.portfoliocean.com",
+      "featured": true,
+      "category": "Full-Stack"
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      "longDescription": "This modern task management application demonstrates my expertise in building interactive user interfaces and real-time applications. Features include drag-and-drop task organization, real-time collaboration using WebSockets, advanced filtering and search capabilities, and responsive design for all devices.",
+      "technologies": ["React", "TypeScript", "Socket.io", "Node.js", "PostgreSQL"],
+      "image": "/assets/projects/task-manager.jpg",
+      "githubUrl": "https://github.com/douboNg/task-manager",
+      "liveUrl": "https://tasks.portfoliocean.com",
+      "featured": true,
+      "category": "Frontend"
+    },
+    {
+      "id": 3,
+      "title": "Weather Dashboard",
+      "description": "A beautiful weather dashboard with location-based forecasts, interactive maps, and detailed analytics.",
+      "longDescription": "An elegant weather dashboard that provides comprehensive weather information with stunning visualizations. Built with React and integrated with multiple weather APIs to provide accurate forecasts, interactive weather maps, and detailed analytics including temperature trends, precipitation patterns, and weather alerts.",
+      "technologies": ["React", "D3.js", "Weather API", "Geolocation", "Chart.js"],
+      "image": "/assets/projects/weather-dashboard.jpg",
+      "githubUrl": "https://github.com/douboNg/weather-dashboard",
+      "liveUrl": "https://weather.portfoliocean.com",
+      "featured": false,
+      "category": "Frontend"
+    },
+    {
+      "id": 4,
+      "title": "API Gateway Service",
+      "description": "A scalable microservices API gateway with authentication, rate limiting, and monitoring capabilities.",
+      "longDescription": "A robust API gateway service designed for microservices architecture. Implements advanced features including JWT-based authentication, intelligent rate limiting, request/response transformation, comprehensive logging and monitoring, and automatic service discovery. Built with Node.js and deployed using Docker containers.",
+      "technologies": ["Node.js", "Express", "Redis", "Docker", "JWT", "Prometheus"],
+      "image": "/assets/projects/api-gateway.jpg",
+      "githubUrl": "https://github.com/douboNg/api-gateway",
+      "liveUrl": null,
+      "featured": false,
+      "category": "Backend"
+    }
+  ],
+  "skills": {
+    "frontend": [
+      { "name": "React", "level": "Expert", "years": 3 },
+      { "name": "TypeScript", "level": "Advanced", "years": 2 },
+      { "name": "JavaScript", "level": "Expert", "years": 4 },
+      { "name": "HTML/CSS", "level": "Expert", "years": 5 },
+      { "name": "Tailwind CSS", "level": "Advanced", "years": 2 },
+      { "name": "Next.js", "level": "Advanced", "years": 2 },
+      { "name": "Vue.js", "level": "Intermediate", "years": 1 }
+    ],
+    "backend": [
+      { "name": "Node.js", "level": "Advanced", "years": 3 },
+      { "name": "Express.js", "level": "Advanced", "years": 3 },
+      { "name": "Python", "level": "Intermediate", "years": 2 },
+      { "name": "PostgreSQL", "level": "Advanced", "years": 2 },
+      { "name": "MongoDB", "level": "Advanced", "years": 2 },
+      { "name": "Redis", "level": "Intermediate", "years": 1 },
+      { "name": "GraphQL", "level": "Intermediate", "years": 1 }
+    ],
+    "tools": [
+      { "name": "Git", "level": "Advanced", "years": 4 },
+      { "name": "Docker", "level": "Intermediate", "years": 2 },
+      { "name": "AWS", "level": "Intermediate", "years": 1 },
+      { "name": "Figma", "level": "Advanced", "years": 3 },
+      { "name": "Webpack", "level": "Intermediate", "years": 2 },
+      { "name": "Jest", "level": "Advanced", "years": 2 },
+      { "name": "Cypress", "level": "Intermediate", "years": 1 }
+    ]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "company": "TechFlow Solutions",
+      "position": "Senior Frontend Developer",
+      "location": "Remote",
+      "startDate": "2023-01",
+      "endDate": null,
+      "current": true,
+      "description": "Lead frontend development for multiple client projects using React and TypeScript. Collaborate with design teams to create pixel-perfect, responsive user interfaces. Mentor junior developers and establish best practices for code quality and performance.",
+      "achievements": [
+        "Improved application performance by 40% through code optimization and lazy loading",
+        "Led a team of 4 developers in delivering 3 major client projects on time",
+        "Implemented comprehensive testing strategies reducing bug reports by 60%"
+      ],
+      "technologies": ["React", "TypeScript", "Next.js", "Tailwind CSS", "GraphQL"]
+    },
+    {
+      "id": 2,
+      "company": "Digital Innovations Inc.",
+      "position": "Full-Stack Developer",
+      "location": "San Francisco, CA",
+      "startDate": "2021-06",
+      "endDate": "2022-12",
+      "current": false,
+      "description": "Developed and maintained full-stack web applications using React, Node.js, and PostgreSQL. Worked closely with product managers and designers to implement new features and improve user experience.",
+      "achievements": [
+        "Built and deployed 5 successful web applications serving 10k+ users",
+        "Reduced server response times by 35% through database optimization",
+        "Implemented automated CI/CD pipelines reducing deployment time by 80%"
+      ],
+      "technologies": ["React", "Node.js", "PostgreSQL", "AWS", "Docker"]
+    },
+    {
+      "id": 3,
+      "company": "StartupCo",
+      "position": "Frontend Developer",
+      "location": "Austin, TX",
+      "startDate": "2020-08",
+      "endDate": "2021-05",
+      "current": false,
+      "description": "Focused on frontend development using React and modern JavaScript. Collaborated with a small team to build the company's main product from the ground up.",
+      "achievements": [
+        "Developed the initial MVP that secured $2M in Series A funding",
+        "Created a component library that improved development speed by 50%",
+        "Implemented responsive design supporting all device types"
+      ],
+      "technologies": ["React", "JavaScript", "SASS", "Material-UI", "Redux"]
+    }
+  ]
+}

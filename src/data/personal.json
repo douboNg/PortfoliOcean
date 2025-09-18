@@ -1,0 +1,62 @@
+{
+  "personal": {
+    "name": "Duong Nguyen",
+    "title": "Full-Stack Developer",
+    "tagline": "Crafting digital experiences with code, creativity, and ocean-inspired passion",
+    "bio": "I'm a passionate full-stack developer with over 4 years of experience building scalable web applications. I specialize in React, Node.js, and modern web technologies, with a keen eye for creating user-centered digital experiences that make a difference.",
+    "location": "San Francisco, CA",
+    "email": "duong@portfoliocean.com",
+    "phone": "+1 (555) 123-4567",
+    "website": "https://portfoliocean.com",
+    "resume": "/assets/duong-nguyen-resume.pdf",
+    "availability": "Available for freelance and full-time opportunities"
+  },
+  "social": {
+    "github": "https://github.com/douboNg",
+    "linkedin": "https://linkedin.com/in/duong-nguyen-dev",
+    "twitter": "https://twitter.com/duongdev",
+    "email": "mailto:duong@portfoliocean.com"
+  },
+  "journey": {
+    "introduction": "My journey in web development began with curiosity and has evolved into a passion for creating meaningful digital experiences. From learning my first programming language to building complex applications that serve thousands of users, every step has been driven by the desire to solve problems and push the boundaries of what's possible on the web.",
+    "philosophy": "I believe that great software is not just about clean code and optimal performance—it's about understanding users, anticipating their needs, and creating experiences that feel intuitive and delightful. Every project is an opportunity to learn something new and make a positive impact.",
+    "currentFocus": [
+      "Building scalable React applications with modern architectural patterns",
+      "Exploring the intersection of AI/ML and web development",
+      "Contributing to open-source projects and community initiatives",
+      "Mentoring aspiring developers and sharing knowledge through writing"
+    ],
+    "goals": [
+      "Lead engineering teams in building products that positively impact millions of users",
+      "Contribute to the evolution of web development standards and best practices",
+      "Build a sustainable tech business that prioritizes user privacy and ethical development",
+      "Establish a scholarship program for underrepresented groups in technology"
+    ]
+  },
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Chen",
+      "role": "Product Manager at TechFlow Solutions",
+      "company": "TechFlow Solutions",
+      "text": "Duong is an exceptional developer who consistently delivers high-quality work. His attention to detail and ability to translate complex requirements into elegant solutions is impressive. He's also a great communicator and team player.",
+      "image": "/assets/testimonials/sarah-chen.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Marcus Rodriguez",
+      "role": "CTO at StartupCo",
+      "company": "StartupCo", 
+      "text": "Working with Duong was instrumental in our early success. He built our entire frontend from scratch and his code quality was so good that we're still using the same architecture two years later. Highly recommended!",
+      "image": "/assets/testimonials/marcus-rodriguez.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Emily Zhang",
+      "role": "Senior Designer at Digital Innovations",
+      "company": "Digital Innovations Inc.",
+      "text": "Duong has an incredible ability to bring designs to life. He understands the nuances of user experience and always suggests improvements that make the final product better than what we initially envisioned.",
+      "image": "/assets/testimonials/emily-zhang.jpg"
+    }
+  ]
+}

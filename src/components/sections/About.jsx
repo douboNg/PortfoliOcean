@@ -39,11 +39,11 @@ const About = () => {
             {/* Quick Stats */}
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center p-6 bg-white rounded-xl shadow-lg">
-                <div className="text-3xl font-bold text-ocean-500 mb-2">4+</div>
+                <div className="text-3xl font-bold text-ocean-500 mb-2">1</div>
                 <div className="text-gray-600">Years Experience</div>
               </div>
               <div className="text-center p-6 bg-white rounded-xl shadow-lg">
-                <div className="text-3xl font-bold text-ocean-500 mb-2">50+</div>
+                <div className="text-3xl font-bold text-ocean-500 mb-2">10</div>
                 <div className="text-gray-600">Projects Completed</div>
               </div>
             </div>

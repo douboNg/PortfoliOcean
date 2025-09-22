@@ -18,7 +18,7 @@ const Navigation = () => {
     { name: 'About Me', href: '#about' },
     { name: 'My Journey', href: '#journey' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Blog', href: '#blog' },
+    // { name: 'Blog', href: '#blog' },
     { name: 'Contact', href: '#contact' },
   ]
 
